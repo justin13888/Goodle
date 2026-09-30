@@ -6,6 +6,7 @@ Goodle is a small native macOS app. Every stroke you draw snaps to a clean equat
 
 - **Core:** Rust (`goodle-core`), which turns strokes into equations and is unit-tested on any OS
 - **App:** Swift + SwiftUI (macOS 14+), bridged to the core with UniFFI
+- **No network, no TeX:** equations are typeset from MathML with the system WebKit
 
 See [SPEC.md](SPEC.md) for the full product and technical spec.
 
